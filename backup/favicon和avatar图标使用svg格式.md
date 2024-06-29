@@ -15,7 +15,7 @@ favicon.svg  418B
 ## 示例
 我的logo图标
 
-`Gmeek-html<img src="https://download.s21i.faiusr.com/29455906/81/0/ABUIABBRGAAg-_z-swYo-IiqyAc.svg">`
+`Gmeek-html<img src="https://29455906.s21i.faiusr.com/4/ABUIABAEGAAggO3-swYoq7m-vQEwjSA44CA.png">`
 
 
 
