@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
-    <link rel="icon" href="https://29455906.s21i.faiusr.com/4/ABUIABAEGAAg9_TSrAYoxvHpgAcwgAI4gAI.png"><script>
+    <link rel="icon" href="https://download.s21i.faiusr.com/29455906/81/0/ABUIABBRGAAg-_z-swYo-IiqyAc.svg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
@@ -14,7 +14,7 @@
 <meta property="og:description" content="[GBlog](https://github.com/grdnet/GBlog) 一个博客框架，超轻量级个人博客模板，完全基于`Github Pages `、 `Github Issues` 和 `Github Actions`，可以称作`All in Github`。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://grdnet.github.io/blog/post/kuai-su-ru-men.html">
-<meta property="og:image" content="https://29455906.s21i.faiusr.com/4/ABUIABAEGAAg9_TSrAYoxvHpgAcwgAI4gAI.png">
+<meta property="og:image" content="https://download.s21i.faiusr.com/29455906/81/0/ABUIABBRGAAg-_z-swYo-IiqyAc.svg">
 <title>快速入门</title>
 <link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
 
@@ -51,12 +51,6 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <a href="https://grdnet.github.io/blog" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
             <path id="pathHome" fill-rule="evenodd"></path>
-        </svg>
-    </a>
-    
-    <a href="https://github.com/grdnet/blog/issues/1" target="_blank" class="btn btn-invisible circle" title="Issue">
-        <svg class="octicon" width="16" height="16">
-            <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
     </a>
     
@@ -354,7 +348,11 @@ console.log("\n %c G.R.D  https://grdnet.org \n\n","padding:5px 0;background:#02
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="1";
+    cmButton.appendChild(span);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
